@@ -7,14 +7,14 @@ redirect_from:
   - /about.html
 ---
 
-<figure>
-    <img src="images/2014-07-15-16-11-41-copy_orig.jpg"
-     alt="Measuring a tree in Yosemite NP" 
-      width="10" 
-      height="5"
-      style="float: right; margin-right: 10px;" >
-    <figcaption> Measuring a tree in Yosemite NP.</figcaption>
-</figure>
+<img src="images/2014-07-15-16-11-41-copy_orig.jpg"
+   alt="Measuring a tree in Yosemite NP" 
+	 style="object-fit:cover;
+            width:200px;
+            height:300px;
+            border: solid 1px #CCC
+            float: right; 
+            margin-right: 10px;"/>
      
 I specialize in using remote sensing and GIS to solve problems and answer questions about earth's natural resources. My background includes work with LiDAR, hyperspectral and multispectral imaging, and drones/UAVs. I started my career in Remote Sensing as an undergraduate researcher in September 2014, during which time I worked on my capstone under Dr. L. Monika Moskal and Dr. Van Kane. For this project I determined that LiDAR can be used to detect understory presence in the Sugar Pine/Mixed conifer forests of Yosemite National Park. During this time, I was also able to work as a field research assistant in Yosemite. 
 
