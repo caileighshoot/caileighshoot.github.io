@@ -18,17 +18,17 @@ In the summer of 2022 I was offered a part-time position as a Remote Sensing lec
 
 In response to the evaluation question, "Was this class intellectually stimulating? Did it stretch your thinking? Why or why not?", students responded with:
 
-_"Yes, I loved all the topics and Caileigh did a great job at presenting it. I really learned a lot about remote sensing. All my other classes that use remote sensing for ecology did not really cover the ideas on how remote sensing does works and focused more on what we can do in the ArcGIS program."_
+> "Yes, I loved all the topics and Caileigh did a great job at presenting it. I really learned a lot about remote sensing. All my other classes that use remote sensing for ecology did not really cover the ideas on how remote sensing does works and focused more on what we can do in the ArcGIS program."
 
-_"Yes this class presented me with a lot of great information about remote sensing and offered me an introduction to this really cool field of study"_
+> "Yes this class presented me with a lot of great information about remote sensing and offered me an introduction to this really cool field of study"
 
-_"It definitely got me thinking about real-world applications of the subject matter. Opposed to some other classes where I couldn't think of ways this could be applied to my field, in this class I could see myself doing the coursework in the context of a job."_
+> "It definitely got me thinking about real-world applications of the subject matter. Opposed to some other classes where I couldn't think of ways this could be applied to my field, in this class I could see myself doing the coursework in the context of a job."
 
 In response to the evaluation question "What aspects of this class contributed most to your learning?", students responded:
 
-_"Getting to hear from someone who is in the industry and get, what I felt to be, very candid and helpful advice on jobs and what this field looks like. I think that Caileigh did a great job of presenting us the information and her enthusiasm about the content made it even better."_
+> "Getting to hear from someone who is in the industry and get, what I felt to be, very candid and helpful advice on jobs and what this field looks like. I think that Caileigh did a great job of presenting us the information and her enthusiasm about the content made it even better."_
 
-_"Caileigh's ability to teach "with the flow", have good vibes in lecture all around. She was just a fantastic lecturer and really motivated me to keep going with remote sensing"_
+> "Caileigh's ability to teach "with the flow", have good vibes in lecture all around. She was just a fantastic lecturer and really motivated me to keep going with remote sensing"_
 
 In my current work as a Forest Carbon Analyst I use data analysis (in Python and R), GIS, and Remote Sensing to aide in the development of forest carbon projects. Since beginning in this role, much of my focus has been in building tools and documentation that will allow us to easily execute on carbon projects. I also build custom code and maps to perform detailed assessments of areas. 
 ​
