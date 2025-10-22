@@ -10,8 +10,8 @@ redirect_from:
 <figure>
     <img src="images/2014-07-15-16-11-41-copy_orig.jpg"
      alt="Measuring a tree in Yosemite NP" 
-      width="200" 
-      height="100"
+      width="10" 
+      height="5"
       style="float: right; margin-right: 10px;" >
     <figcaption> Measuring a tree in Yosemite NP.</figcaption>
 </figure>
