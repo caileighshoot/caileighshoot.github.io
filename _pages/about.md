@@ -7,11 +7,16 @@ redirect_from:
   - /about.html
 ---
 
+<figure>
+    <img src="images/2014-07-15-16-11-41-copy_orig.jpg"
+     alt="Measuring a tree in Yosemite NP" 
+      width="200" 
+      height="100"
+      style="float: right; margin-right: 10px;" >
+    <figcaption> Measuring a tree in Yosemite NP.</figcaption>
+</figure>
+     
 I specialize in using remote sensing and GIS to solve problems and answer questions about earth's natural resources. My background includes work with LiDAR, hyperspectral and multispectral imaging, and drones/UAVs. I started my career in Remote Sensing as an undergraduate researcher in September 2014, during which time I worked on my capstone under Dr. L. Monika Moskal and Dr. Van Kane. For this project I determined that LiDAR can be used to detect understory presence in the Sugar Pine/Mixed conifer forests of Yosemite National Park. During this time, I was also able to work as a field research assistant in Yosemite. 
-
-<img src="images/2014-07-15-16-11-41-copy_orig.jpg"
-     alt="Measuring a tree in Yosemite NP"
-     style="float: left; margin-right: 10px;" />
 
 In June 2018 I completed my Masters of Science in the Remote Sensing and Geospatial Analysis Laboratory. My MS thesis work involved using hyperspectral imaging and LiDAR to classify forest type in the Tanana Valley of interior Alaska and was co-chaired by Dr. L. Monika Moskal and Dr. Hans-Erik Andersen. After graduating, I was hired as an intern at NASA Goddard Space Flight Center wherein I was able to finish the processing of my thesis on the NASA super computer. This work was published in Remote Sensing in May 2021.​
 Since 2018 I have worked in forest remote sensing and GIS for the largest forestry company in the US. In that time I have worked as a Remote Sensing Research Specialist, Inventory and Planning GIS Analyst, and now a Forest Carbon Analyst. As a Remote Sensing Research Specialist, I worked to integrate remote sensing into Weyerhaeuser's research projects. This included the use of lidar, multispectral imaging, and especially UAVs. While I was in this role, I logged well over 150 UAV flights, many of which were flown solo. I did all of the flight planning, equipment maintenance, and data processing as part of this work. 
