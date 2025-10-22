@@ -1,56 +1,30 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "About Caileigh"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. Incidentally, these same features make it a great template for anyone that needs to show off a professional template!
+I specialize in using remote sensing and GIS to solve problems and answer questions about earth's natural resources. My background includes work with LiDAR, hyperspectral and multispectral imaging, and drones/UAVs. I started my career in Remote Sensing as an undergraduate researcher in September 2014, during which time I worked on my capstone under Dr. L. Monika Moskal and Dr. Van Kane. For this project I determined that LiDAR can be used to detect understory presence in the Sugar Pine/Mixed conifer forests of Yosemite National Park. During this time, I was also able to work as a field research assistant in Yosemite.  
 
- You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and Markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
+In June 2018 I completed my Masters of Science in the Remote Sensing and Geospatial Analysis Laboratory. My MS thesis work involved using hyperspectral imaging and LiDAR to classify forest type in the Tanana Valley of interior Alaska and was co-chaired by Dr. L. Monika Moskal and Dr. Hans-Erik Andersen. After graduating, I was hired as an intern at NASA Goddard Space Flight Center wherein I was able to finish the processing of my thesis on the NASA super computer. This work was published in Remote Sensing in May 2021.​
+Since 2018 I have worked in forest remote sensing and GIS for the largest forestry company in the US. In that time I have worked as a Remote Sensing Research Specialist, Inventory and Planning GIS Analyst, and now a Forest Carbon Analyst. As a Remote Sensing Research Specialist, I worked to integrate remote sensing into Weyerhaeuser's research projects. This included the use of lidar, multispectral imaging, and especially UAVs. While I was in this role, I logged well over 150 UAV flights, many of which were flown solo. I did all of the flight planning, equipment maintenance, and data processing as part of this work. 
 
-A data-driven personal website
-======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured Markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various Markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+As an inventory and Planning GIS Analyst I performed GIS mapping and spatial analysis in direct support of Weyerhaeuser's operational forestry teams. I also provided user support and training for both ESRI products (such as ArcGIS Desktop, Field Maps, Survey123, and more) as well as Weyerhaeuser's internal forest management systems and databases. 
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your Markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over - just be sure to save the Markdown files! You can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+In the summer of 2022 I was offered a part-time position as a Remote Sensing lecturer at the University of Washington to fill in for a faculty member. With Weyerhaeuser's support, I was able to gladly accept the position and teach 115 students remote sensing part-time (while also working my full-time job at Weyerhaeuser) for an academic quarter. I very much enjoy teaching and was grateful for this opportunity. By the end of the quarter, I was left with very strong course evaluations, earning a 4.1/5 overall (with 71% of students responding to the evaluations). 
 
-For those users that need more advanced functionality, the template also supports the following popular tools:
-- [MathJax](https://www.mathjax.org/) for mathematical equations
-- [Mermaid](https://mermaid.js.org/) for diagraming
-- [Plotly](https://plotly.com/javascript/) for plotting
+In response to the evaluation question, "Was this class intellectually stimulating? Did it stretch your thinking? Why or why not?", students responded with:
+"Yes, I loved all the topics and Caileigh did a great job at presenting it. I really learned a lot about remote sensing. All my other classes that use remote sensing for ecology did not really cover the ideas on how remote sensing does works and focused more on what we can do in the ArcGIS program."
+"Yes this class presented me with a lot of great information about remote sensing and offered me an introduction to this really cool field of study"
+"It definitely got me thinking about real-world applications of the subject matter. Opposed to some other classes where I couldn't think of ways this could be applied to my field, in this class I could see myself doing the coursework in the context of a job."
 
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this template](https://github.com/academicpages/academicpages.github.io) by clicking the "Use this template" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](https://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+In response to the evaluation question "What aspects of this class contributed most to your learning?", students responded:
+"Getting to hear from someone who is in the industry and get, what I felt to be, very candid and helpful advice on jobs and what this field looks like. I think that Caileigh did a great job of presenting us the information and her enthusiasm about the content made it even better."
+"Caileigh's ability to teach "with the flow", have good vibes in lecture all around. She was just a fantastic lecturer and really motivated me to keep going with remote sensing"
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
-
-Create content & metadata
-------
-For site content, there is one Markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a Markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each Markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
-
-**Markdown generator**
-
-The repository includes [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual Markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the Markdown files, then commit and push them to the GitHub repository.
-
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and Markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
-
-Example: editing a Markdown file for a talk
-![Editing a Markdown file for a talk](/images/editing-talk.png)
-
-For more info
-------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+In my current work as a Forest Carbon Analyst I use data analysis (in Python and R), GIS, and Remote Sensing to aide in the development of forest carbon projects. Since beginning in this role, much of my focus has been in building tools and documentation that will allow us to easily execute on carbon projects. I also build custom code and maps to perform detailed assessments of areas. 
+​
+Interested in learning more? Connect with me on [LinkedIn](https://www.linkedin.com/in/caileighshoot)!
