@@ -26,9 +26,9 @@ In response to the evaluation question, "Was this class intellectually stimulati
 
 In response to the evaluation question "What aspects of this class contributed most to your learning?", students responded:
 
-> "Getting to hear from someone who is in the industry and get, what I felt to be, very candid and helpful advice on jobs and what this field looks like. I think that Caileigh did a great job of presenting us the information and her enthusiasm about the content made it even better."_
+> "Getting to hear from someone who is in the industry and get, what I felt to be, very candid and helpful advice on jobs and what this field looks like. I think that Caileigh did a great job of presenting us the information and her enthusiasm about the content made it even better."
 
-> "Caileigh's ability to teach "with the flow", have good vibes in lecture all around. She was just a fantastic lecturer and really motivated me to keep going with remote sensing"_
+> "Caileigh's ability to teach "with the flow", have good vibes in lecture all around. She was just a fantastic lecturer and really motivated me to keep going with remote sensing"
 
 In my current work as a Forest Carbon Analyst I use data analysis (in Python and R), GIS, and Remote Sensing to aide in the development of forest carbon projects. Since beginning in this role, much of my focus has been in building tools and documentation that will allow us to easily execute on carbon projects. I also build custom code and maps to perform detailed assessments of areas. 
 ​
