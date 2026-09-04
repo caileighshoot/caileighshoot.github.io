@@ -50,6 +50,10 @@
     "addressLocality": "Munich",
     "addressCountry": "DE"
   },
+  "nationality": [
+    { "@type": "Country", "name": "United States" },
+    { "@type": "Country", "name": "Germany" }
+  ],
   "email": "mailto:caileighshoot@gmail.com",
   "sameAs": [
     "https://www.linkedin.com/in/caileighshoot/",
@@ -89,7 +93,7 @@
 
 <header class="site-header">
   <nav class="nav">
-    <a href="#top" class="nav-name">Caileigh Shoot</a>
+    <a href="#top" class="nav-name" translate="no">Caileigh Shoot</a>
     <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
       <span></span><span></span><span></span>
     </button>
@@ -117,8 +121,8 @@
 
     <div class="hero-inner">
       <div class="hero-text">
-        <p class="eyebrow-plain">Munich, Germany · Open to Data Scientist / ML roles</p>
-        <h1 class="hero-title">Caileigh<br>Shoot</h1>
+        <p class="eyebrow-plain">Munich, Germany · Dual US/German Citizen</p>
+        <h1 class="hero-title" translate="no">Caileigh<br>Shoot</h1>
         <p class="hero-role">Forest Remote Sensing & Data Scientist</p>
         <p class="hero-tagline">A decade of remote sensing, LiDAR, and UAV research experience, turned into models and tools that people actually use.</p>
         <div class="hero-actions">
@@ -134,24 +138,17 @@
     </div>
   </section>
 
-  <!-- STATS -->
-  <section class="stats" aria-label="Career highlights">
-    <div class="stats-grid">
-      <div class="stat">
-        <span class="stat-number">150+</span>
-        <span class="stat-label">UAV missions flown, many solo</span>
+  <!-- HIGHLIGHT -->
+  <section class="highlight-editorial" aria-label="Career highlight">
+    <div class="highlight-editorial-inner">
+      <div>
+        <div class="highlight-big">$1.3M</div>
+        <div class="highlight-big-label">in cost savings from a decision-support tool she built and shipped at Weyerhaeuser</div>
       </div>
-      <div class="stat">
-        <span class="stat-number">$1.3M</span>
-        <span class="stat-label">Cost savings from an automated decision-support tool she built</span>
-      </div>
-      <div class="stat">
-        <span class="stat-number">115</span>
-        <span class="stat-label">Students taught as a UW remote sensing lecturer</span>
-      </div>
-      <div class="stat">
-        <span class="stat-number">2025</span>
-        <span class="stat-label">Weyerhaeuser Innovator of the Year</span>
+      <div class="highlight-side">
+        <div class="highlight-side-item"><strong>150+ UAV missions</strong><span>flown, many of them solo</span></div>
+        <div class="highlight-side-item"><strong>115 students</strong><span>taught as a UW remote sensing lecturer</span></div>
+        <div class="highlight-side-item"><strong>Innovator of the Year</strong><span>Weyerhaeuser, 2025</span></div>
       </div>
     </div>
   </section>
@@ -298,22 +295,29 @@
   <section class="projects" id="projects">
     <div class="section-inner">
       <h2 class="section-heading">Featured Projects</h2>
-      <div class="projects-grid">
+      <div class="project-slider" data-slider>
+        <div class="project-slider-track">
 
-        <article class="project-card-compact">
-          <p class="project-kicker">MS Thesis Code · R</p>
-          <h3>Classifying FIA Forest Type from Hyperspectral & LiDAR Data</h3>
-          <p>Fused NASA G-LiHT hyperspectral and LiDAR data to classify forest type in interior Alaska, benchmarking five machine learning algorithms. The best model, a Random Forest using hyperspectral vegetation indices, topography, and canopy height, reached 77.53% overall accuracy.</p>
-          <div class="project-stats">
-            <span class="project-stat"><strong>77.53%</strong> accuracy</span>
-            <span class="project-stat"><strong>5</strong> algorithms benchmarked</span>
-          </div>
-          <div class="project-links">
-            <a href="https://github.com/caileighshoot/Alaska-Work" target="_blank" rel="noopener" class="btn btn-primary btn-sm">View Repo</a>
-            <a href="https://www.mdpi.com/2072-4292/13/10/1863" target="_blank" rel="noopener" class="btn btn-ghost btn-sm">Read Paper</a>
-          </div>
-        </article>
+          <article class="project-card-compact is-active">
+            <p class="project-kicker">MS Thesis Code · R</p>
+            <h3>Classifying FIA Forest Type from Hyperspectral & LiDAR Data</h3>
+            <p>Fused NASA G-LiHT hyperspectral and LiDAR data to classify forest type in interior Alaska, benchmarking five machine learning algorithms. The best model, a Random Forest using hyperspectral vegetation indices, topography, and canopy height, reached 77.53% overall accuracy.</p>
+            <div class="project-stats">
+              <span class="project-stat"><strong>77.53%</strong> accuracy</span>
+              <span class="project-stat"><strong>5</strong> algorithms benchmarked</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/caileighshoot/Alaska-Work" target="_blank" rel="noopener" class="btn btn-primary btn-sm">View Repo</a>
+              <a href="https://www.mdpi.com/2072-4292/13/10/1863" target="_blank" rel="noopener" class="btn btn-ghost btn-sm">Read Paper</a>
+            </div>
+          </article>
 
+        </div>
+        <div class="slider-controls" data-slider-controls>
+          <button type="button" class="proj-nav-btn proj-prev" aria-label="Previous project">‹</button>
+          <div class="slide-dots" data-slider-dots role="tablist" aria-label="Choose project"></div>
+          <button type="button" class="proj-nav-btn proj-next" aria-label="Next project">›</button>
+        </div>
       </div>
     </div>
   </section>
@@ -333,6 +337,7 @@
         <ul class="pub-list">
           <li>
             <span class="pub-authors">Montenegro, J.F., et al., incl. Shoot, C.</span> (2025). <span class="pub-title">Mangrove-based carbon market projects: Current trends and future perspectives.</span> <span class="pub-venue">Forest Policy and Economics, 181, 103658.</span>
+            <a href="https://www.sciencedirect.com/science/article/abs/pii/S1389934125002370" target="_blank" rel="noopener" class="pub-link">Read paper →</a>
           </li>
           <li>
             <span class="pub-authors">Shoot, C., et al.</span> (2021). <span class="pub-title">Classifying forest type in the national forest inventory context with airborne hyperspectral and lidar data.</span> <span class="pub-venue">Remote Sensing, 13(10), 1863.</span>
@@ -437,7 +442,7 @@
 </main>
 
 <footer class="site-footer">
-  <p>© <span id="year"></span> Caileigh Shoot</p>
+  <p>© <span id="year"></span> <span translate="no">Caileigh Shoot</span></p>
 </footer>
 
 <script src="script.js"></script>

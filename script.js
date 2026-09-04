@@ -15,7 +15,7 @@ navLinks.querySelectorAll('a').forEach(link => {
   });
 });
 
-// Slideshow
+// Slideshow (photo gallery)
 const slideshow = document.querySelector('[data-slideshow]');
 if (slideshow) {
   const slides = Array.from(slideshow.querySelectorAll('.slide'));
@@ -59,3 +59,43 @@ if (slideshow) {
     touchStartX = null;
   });
 }
+
+// Generic card slider (e.g. Featured Projects)
+document.querySelectorAll('[data-slider]').forEach((container) => {
+  const slides = Array.from(container.querySelectorAll('.project-card-compact'));
+  const controls = container.querySelector('[data-slider-controls]');
+  const dotsWrap = container.querySelector('[data-slider-dots]');
+  if (!slides.length || !controls || !dotsWrap) return;
+
+  if (slides.length <= 1) {
+    controls.classList.remove('has-multiple');
+    return;
+  }
+  controls.classList.add('has-multiple');
+
+  const prevBtn = container.querySelector('.proj-prev');
+  const nextBtn = container.querySelector('.proj-next');
+  let current = slides.findIndex((s) => s.classList.contains('is-active'));
+  if (current < 0) current = 0;
+
+  slides.forEach((_, i) => {
+    const dot = document.createElement('button');
+    dot.type = 'button';
+    dot.setAttribute('aria-label', `Go to project ${i + 1}`);
+    if (i === current) dot.classList.add('is-active');
+    dot.addEventListener('click', () => goTo(i));
+    dotsWrap.appendChild(dot);
+  });
+  const dots = Array.from(dotsWrap.children);
+
+  function goTo(index) {
+    slides[current].classList.remove('is-active');
+    dots[current].classList.remove('is-active');
+    current = (index + slides.length) % slides.length;
+    slides[current].classList.add('is-active');
+    dots[current].classList.add('is-active');
+  }
+
+  prevBtn.addEventListener('click', () => goTo(current - 1));
+  nextBtn.addEventListener('click', () => goTo(current + 1));
+});
