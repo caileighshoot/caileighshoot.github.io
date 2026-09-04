@@ -153,28 +153,24 @@ button:focus-visible {
   inset: 0;
   width: 100%;
   height: 100%;
-  opacity: 0.55;
 }
 
-.contour {
+.mountain-layer {
+  stroke: none;
+}
+.mountain-back { fill: rgba(246, 243, 234, 0.055); }
+.mountain-mid { fill: rgba(45, 106, 79, 0.28); }
+.mountain-front { fill: rgba(232, 169, 59, 0.14); }
+
+.contour.ridge-line {
   fill: none;
-  stroke-width: 1.5;
+  stroke: rgba(255, 90, 56, 0.55);
+  stroke-width: 2;
+  stroke-linejoin: round;
+  stroke-dasharray: 2400;
+  stroke-dashoffset: 2400;
+  animation: draw-contour 2.8s ease-out forwards;
 }
-.contour.c1 { stroke: rgba(255, 90, 56, 0.5); }
-.contour.c2 { stroke: rgba(232, 169, 59, 0.4); }
-.contour.c3 { stroke: rgba(246, 243, 234, 0.22); }
-.contour.c4 { stroke: rgba(45, 106, 79, 0.55); }
-.contour.c5 { stroke: rgba(246, 243, 234, 0.14); }
-
-.contour {
-  stroke-dasharray: 2000;
-  stroke-dashoffset: 2000;
-  animation: draw-contour 2.4s ease-out forwards;
-}
-.contour.c2 { animation-delay: 0.12s; }
-.contour.c3 { animation-delay: 0.24s; }
-.contour.c4 { animation-delay: 0.36s; }
-.contour.c5 { animation-delay: 0.48s; }
 
 @keyframes draw-contour {
   to { stroke-dashoffset: 0; }
@@ -485,6 +481,70 @@ button:focus-visible {
 }
 
 /* ============================================
+   EDUCATION
+   ============================================ */
+.education {
+  padding: clamp(3.5rem, 8vh, 6rem) 0;
+}
+
+.education-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: clamp(2rem, 4vw, 3.5rem);
+  align-items: start;
+}
+
+.education-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.education-list li {
+  border-left: 3px solid var(--coral);
+  padding: 0 0 0 1.1rem;
+  margin-bottom: 1.75rem;
+}
+.education-list li:last-child { margin-bottom: 0; }
+
+.education-list h3 {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 1.15rem;
+  margin: 0 0 0.2rem;
+}
+
+.education-org {
+  font-weight: 600;
+  color: var(--ink-soft);
+  margin: 0 0 0.15rem;
+}
+
+.education-dates {
+  font-size: 0.85rem;
+  color: var(--canopy);
+  font-weight: 600;
+  margin: 0;
+}
+
+.education-map iframe {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  border: 2px solid rgba(45, 106, 79, 0.35);
+  border-radius: 8px;
+  filter: grayscale(35%) contrast(1.05) saturate(1.1);
+  display: block;
+}
+
+.education-map-caption {
+  margin: 0.6rem 0 0;
+  font-size: 0.8rem;
+  color: var(--ink-soft);
+  text-align: center;
+  letter-spacing: 0.01em;
+}
+
+/* ============================================
    EXPERIENCE / TIMELINE
    ============================================ */
 .experience {
@@ -773,10 +833,27 @@ button:focus-visible {
 }
 
 .plain-list li {
-  padding: 0.75rem 0;
+  padding: 0.75rem 0 0.75rem 1.7rem;
   border-bottom: 1px solid var(--line);
+  position: relative;
 }
 .plain-list li:last-child { border-bottom: none; }
+
+.plain-list li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 1rem;
+  width: 14px;
+  height: 14px;
+  background-color: var(--canopy);
+  mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M12 2 L18 13 H14.5 L20 20 H4 L9.5 13 H6 Z'/%3E%3C/svg%3E");
+  mask-repeat: no-repeat;
+  mask-size: contain;
+  -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M12 2 L18 13 H14.5 L20 20 H4 L9.5 13 H6 Z'/%3E%3C/svg%3E");
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-size: contain;
+}
 
 /* ============================================
    CONTACT
@@ -820,6 +897,13 @@ button:focus-visible {
   font-size: 0.85rem;
 }
 
+.footer-treeline {
+  display: block;
+  width: 100%;
+  height: 44px;
+  margin: 0 0 1.25rem;
+}
+
 /* ============================================
    RESPONSIVE
    ============================================ */
@@ -832,6 +916,7 @@ button:focus-visible {
   .hero-photo-frame { max-width: 220px; }
   .highlight-editorial-inner { grid-template-columns: 1fr; gap: 2rem; }
   .bio-columns { grid-template-columns: 1fr; }
+  .education-columns { grid-template-columns: 1fr; }
   .bio-quote { position: static; }
   .awards-columns { grid-template-columns: 1fr; gap: 2rem; }
 }

@@ -1,6 +1,6 @@
 # Caileigh Shoot
 
-> Forest remote sensing and data scientist based in Munich, Germany, specializing in LiDAR, hyperspectral and multispectral imaging, UAVs, machine learning, and geospatial analysis for forest ecosystems and carbon projects. Currently a Research Associate at TU Berlin through October 2027, after which she'll be looking for data scientist / ML roles.
+> Forest remote sensing and data scientist based in Munich, Germany, specializing in LiDAR, hyperspectral and multispectral imaging, UAVs, machine learning, and geospatial analysis for forest ecosystems and carbon projects. Currently a Research Associate at TU Berlin through October 2027, after which she'll be looking for data scientist / ML roles, open to remote positions as well as roles in Germany.
 
 ## Contact
 - Email: caileighshoot@gmail.com
