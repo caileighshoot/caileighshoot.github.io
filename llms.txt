@@ -1,6 +1,6 @@
 # Caileigh Shoot
 
-> Data scientist and remote sensing researcher based in Munich, Germany, specializing in LiDAR, hyperspectral and multispectral imaging, UAVs, machine learning, and geospatial analysis for forest ecosystems and carbon projects. Actively looking for data scientist / ML roles.
+> Forest remote sensing and data scientist based in Munich, Germany, specializing in LiDAR, hyperspectral and multispectral imaging, UAVs, machine learning, and geospatial analysis for forest ecosystems and carbon projects. Actively looking for data scientist / ML roles.
 
 ## Contact
 - Email: caileighshoot@gmail.com
@@ -9,12 +9,12 @@
 - Location: Munich, Germany
 
 ## Current role
-Research Associate (PhD researcher), Technische Universität Berlin (KI-Recover project) — applying remote sensing and machine learning to study forest recovery after large-scale disturbances (bark beetle infestations, windthrow, wildfire), Aug 2025–present.
+Research Associate (PhD researcher), Technische Universität Berlin (KI-Recover project), applying remote sensing and machine learning to study forest recovery after large-scale disturbances (bark beetle infestations, windthrow, wildfire), Aug 2025–present.
 
 ## Background
 - M.S., Remote Sensing and Geospatial Analysis, University of Washington, 2018
 - B.S., Environmental Science and Resource Management, University of Washington, 2015
-- Nearly a decade of professional experience in remote sensing, GIS, and applied data science, most recently as Lead Forest Carbon Scientist at Weyerhaeuser (the largest forestry company in the US), where she built automated decision-support tools (R Shiny, Power BI, ArcGIS) — one delivered over $1.3M in cost savings and won the company's 2025 Innovator of the Year award.
+- Nearly a decade of professional experience in remote sensing, GIS, and applied data science, most recently as Lead Forest Carbon Scientist at Weyerhaeuser (the largest forestry company in the US), where she built automated decision-support tools (R Shiny, Power BI, ArcGIS). One of them delivered over $1.3M in cost savings and won the company's 2025 Innovator of the Year award.
 - Logged 150+ UAV missions, many flown solo.
 - Taught Remote Sensing of the Environment (ESRM 430) as a part-time lecturer at the University of Washington to 115 students, Fall 2022.
 
@@ -25,9 +25,9 @@ Machine learning (Random Forest, SVM, k-NN, Naive Bayes, Bayesian methods, logis
 Shoot, C., et al. (2021). Classifying forest type in the national forest inventory context with airborne hyperspectral and lidar data. Remote Sensing, 13(10), 1863. https://www.mdpi.com/2072-4292/13/10/1863
 
 ## Full site sections
-- /#about — full bio, including origin story (Yosemite LiDAR capstone research)
-- /#work — full professional experience timeline
-- /#early-career — early academic research roles
-- /#projects — featured GitHub project (MS thesis code)
-- /#publications — publications, contributions, and conference presentations
-- /#contact — contact links
+- /#about, full bio, including origin story (Yosemite LiDAR capstone research)
+- /#gallery, photo slideshow from a decade of fieldwork
+- /#work, full professional experience timeline
+- /#projects, featured project (MS thesis code)
+- /#publications, upcoming presentations, publications, contributions, and past conference presentations
+- /#contact, contact links

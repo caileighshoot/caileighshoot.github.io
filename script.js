@@ -14,3 +14,48 @@ navLinks.querySelectorAll('a').forEach(link => {
     navToggle.setAttribute('aria-expanded', 'false');
   });
 });
+
+// Slideshow
+const slideshow = document.querySelector('[data-slideshow]');
+if (slideshow) {
+  const slides = Array.from(slideshow.querySelectorAll('.slide'));
+  const dotsWrap = slideshow.querySelector('.slide-dots');
+  const prevBtn = slideshow.querySelector('.slide-prev');
+  const nextBtn = slideshow.querySelector('.slide-next');
+  let current = 0;
+
+  slides.forEach((_, i) => {
+    const dot = document.createElement('button');
+    dot.type = 'button';
+    dot.setAttribute('aria-label', `Go to photo ${i + 1}`);
+    if (i === 0) dot.classList.add('is-active');
+    dot.addEventListener('click', () => goTo(i));
+    dotsWrap.appendChild(dot);
+  });
+  const dots = Array.from(dotsWrap.children);
+
+  function goTo(index) {
+    slides[current].classList.remove('is-active');
+    dots[current].classList.remove('is-active');
+    current = (index + slides.length) % slides.length;
+    slides[current].classList.add('is-active');
+    dots[current].classList.add('is-active');
+  }
+
+  prevBtn.addEventListener('click', () => goTo(current - 1));
+  nextBtn.addEventListener('click', () => goTo(current + 1));
+
+  let touchStartX = null;
+  const viewport = slideshow.querySelector('.slideshow-viewport');
+  viewport.addEventListener('touchstart', (e) => {
+    touchStartX = e.touches[0].clientX;
+  }, { passive: true });
+  viewport.addEventListener('touchend', (e) => {
+    if (touchStartX === null) return;
+    const delta = e.changedTouches[0].clientX - touchStartX;
+    if (Math.abs(delta) > 40) {
+      goTo(delta < 0 ? current + 1 : current - 1);
+    }
+    touchStartX = null;
+  });
+}
