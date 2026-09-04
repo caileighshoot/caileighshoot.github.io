@@ -481,70 +481,6 @@ button:focus-visible {
 }
 
 /* ============================================
-   EDUCATION
-   ============================================ */
-.education {
-  padding: clamp(3.5rem, 8vh, 6rem) 0;
-}
-
-.education-columns {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: clamp(2rem, 4vw, 3.5rem);
-  align-items: start;
-}
-
-.education-list {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-.education-list li {
-  border-left: 3px solid var(--coral);
-  padding: 0 0 0 1.1rem;
-  margin-bottom: 1.75rem;
-}
-.education-list li:last-child { margin-bottom: 0; }
-
-.education-list h3 {
-  font-family: var(--font-display);
-  font-weight: 600;
-  font-size: 1.15rem;
-  margin: 0 0 0.2rem;
-}
-
-.education-org {
-  font-weight: 600;
-  color: var(--ink-soft);
-  margin: 0 0 0.15rem;
-}
-
-.education-dates {
-  font-size: 0.85rem;
-  color: var(--canopy);
-  font-weight: 600;
-  margin: 0;
-}
-
-.education-map iframe {
-  width: 100%;
-  aspect-ratio: 4 / 3;
-  border: 2px solid rgba(45, 106, 79, 0.35);
-  border-radius: 8px;
-  filter: grayscale(35%) contrast(1.05) saturate(1.1);
-  display: block;
-}
-
-.education-map-caption {
-  margin: 0.6rem 0 0;
-  font-size: 0.8rem;
-  color: var(--ink-soft);
-  text-align: center;
-  letter-spacing: 0.01em;
-}
-
-/* ============================================
    EXPERIENCE / TIMELINE
    ============================================ */
 .experience {
@@ -552,6 +488,10 @@ button:focus-visible {
   padding: clamp(3.5rem, 8vh, 6rem) 0;
   border-top: 1px solid var(--line);
   border-bottom: 1px solid var(--line);
+}
+
+.experience + .experience {
+  border-top: none;
 }
 
 .timeline {
@@ -916,7 +856,6 @@ button:focus-visible {
   .hero-photo-frame { max-width: 220px; }
   .highlight-editorial-inner { grid-template-columns: 1fr; gap: 2rem; }
   .bio-columns { grid-template-columns: 1fr; }
-  .education-columns { grid-template-columns: 1fr; }
   .bio-quote { position: static; }
   .awards-columns { grid-template-columns: 1fr; gap: 2rem; }
 }
