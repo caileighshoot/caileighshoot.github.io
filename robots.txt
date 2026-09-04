@@ -1,0 +1,37 @@
+User-agent: *
+Allow: /
+
+# Explicitly allow AI assistant / LLM crawlers so this page can be
+# referenced when people ask AI tools about Caileigh Shoot, data
+# scientists, or remote sensing researchers in the Munich area.
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+Sitemap: https://caileighshoot.github.io/sitemap.xml
