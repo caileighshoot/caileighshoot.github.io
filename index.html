@@ -99,7 +99,6 @@
     </button>
     <ul class="nav-links">
       <li><a href="#about">About</a></li>
-      <li><a href="#gallery">Gallery</a></li>
       <li><a href="#work">Experience</a></li>
       <li><a href="#projects">Projects</a></li>
       <li><a href="#papers">Papers</a></li>
@@ -179,34 +178,31 @@
           <p class="quote-attribution">From student course evaluations, ESRM 430, Fall 2022</p>
         </aside>
       </div>
-    </div>
-  </section>
 
-  <!-- GALLERY -->
-  <section class="gallery" id="gallery">
-    <div class="section-inner">
-      <h2 class="section-heading">In the Field</h2>
-      <p class="gallery-lede">A few frames from the last decade, from Yosemite to interior Alaska to NASA Goddard.</p>
-      <div class="slideshow" data-slideshow>
-        <div class="slideshow-viewport">
-          <figure class="slide is-active"><img src="assets/gallery/gallery-01-uav-flight.jpg" alt="A UAV flying over shrub vegetation during a research flight" loading="lazy"></figure>
-          <figure class="slide"><img src="assets/gallery/gallery-02-forest-light.jpg" alt="Sunlight filtering through a Pacific Northwest conifer stand" loading="lazy"></figure>
-          <figure class="slide"><img src="assets/gallery/gallery-03-cascade-view.jpg" alt="A view across managed forestland toward a snow-capped Cascade peak" loading="lazy"></figure>
-          <figure class="slide"><img src="assets/gallery/gallery-04-uav-prep.jpg" alt="Prepping a UAV for a research flight" loading="lazy"></figure>
-          <figure class="slide"><img src="assets/gallery/gallery-05-forest-ridge.jpg" alt="Forested ridgelines stretching into the distance" loading="lazy"></figure>
-          <figure class="slide"><img src="assets/gallery/gallery-06-pine-crown.jpg" alt="Looking up the crown of a tall pine tree" loading="lazy"></figure>
-          <figure class="slide"><img src="assets/gallery/gallery-07-yosemite-valley.jpg" alt="A view over Yosemite Valley, including Half Dome" loading="lazy"></figure>
-          <figure class="slide"><img src="assets/gallery/gallery-08-sequoia.jpg" alt="Standing at the base of a giant sequoia during fieldwork" loading="lazy"></figure>
-          <figure class="slide"><img src="assets/gallery/gallery-09-poster-shrub.jpg" alt="Presenting a research poster on using LiDAR to detect shrub locations" loading="lazy"></figure>
-          <figure class="slide"><img src="assets/gallery/gallery-10-field-measurement.jpg" alt="Taking field measurements in a recovering burned forest" loading="lazy"></figure>
-          <figure class="slide"><img src="assets/gallery/gallery-11-alaska-boreal.jpg" alt="Interior Alaska boreal forest with birch and spruce" loading="lazy"></figure>
-          <figure class="slide"><img src="assets/gallery/gallery-12-nasa-goddard.jpg" alt="Standing at the NASA Goddard Space Flight Center sign" loading="lazy"></figure>
-          <figure class="slide"><img src="assets/gallery/gallery-13-poster-aspen.jpg" alt="Presenting research on aspen leaf miner detection for NASA's ABoVE campaign" loading="lazy"></figure>
-          <figure class="slide"><img src="assets/gallery/gallery-14-pole-pruner.jpg" alt="Collecting vegetation samples with a pole pruner in the field" loading="lazy"></figure>
+      <div class="about-gallery" id="gallery">
+        <h3 class="about-gallery-heading">In the Field</h3>
+        <p class="gallery-lede">A few frames from the last decade, from Yosemite to interior Alaska to NASA Goddard.</p>
+        <div class="slideshow" data-slideshow>
+          <div class="slideshow-viewport">
+            <figure class="slide is-active"><img src="assets/gallery/gallery-01-uav-flight.jpg" alt="A UAV flying over shrub vegetation during a research flight" loading="lazy"></figure>
+            <figure class="slide"><img src="assets/gallery/gallery-02-forest-light.jpg" alt="Sunlight filtering through a Pacific Northwest conifer stand" loading="lazy"></figure>
+            <figure class="slide"><img src="assets/gallery/gallery-03-cascade-view.jpg" alt="A view across managed forestland toward a snow-capped Cascade peak" loading="lazy"></figure>
+            <figure class="slide"><img src="assets/gallery/gallery-04-uav-prep.jpg" alt="Prepping a UAV for a research flight" loading="lazy"></figure>
+            <figure class="slide"><img src="assets/gallery/gallery-05-forest-ridge.jpg" alt="Forested ridgelines stretching into the distance" loading="lazy"></figure>
+            <figure class="slide"><img src="assets/gallery/gallery-06-pine-crown.jpg" alt="Looking up the crown of a tall pine tree" loading="lazy"></figure>
+            <figure class="slide"><img src="assets/gallery/gallery-07-yosemite-valley.jpg" alt="A view over Yosemite Valley, including Half Dome" loading="lazy"></figure>
+            <figure class="slide"><img src="assets/gallery/gallery-08-sequoia.jpg" alt="Standing at the base of a giant sequoia during fieldwork" loading="lazy"></figure>
+            <figure class="slide"><img src="assets/gallery/gallery-09-poster-shrub.jpg" alt="Presenting a research poster on using LiDAR to detect shrub locations" loading="lazy"></figure>
+            <figure class="slide"><img src="assets/gallery/gallery-10-field-measurement.jpg" alt="Taking field measurements in a recovering burned forest" loading="lazy"></figure>
+            <figure class="slide"><img src="assets/gallery/gallery-11-alaska-boreal.jpg" alt="Interior Alaska boreal forest with birch and spruce" loading="lazy"></figure>
+            <figure class="slide"><img src="assets/gallery/gallery-12-nasa-goddard.jpg" alt="Standing at the NASA Goddard Space Flight Center sign" loading="lazy"></figure>
+            <figure class="slide"><img src="assets/gallery/gallery-13-poster-aspen.jpg" alt="Presenting research on aspen leaf miner detection for NASA's ABoVE campaign" loading="lazy"></figure>
+            <figure class="slide"><img src="assets/gallery/gallery-14-pole-pruner.jpg" alt="Collecting vegetation samples with a pole pruner in the field" loading="lazy"></figure>
+          </div>
+          <button type="button" class="slide-btn slide-prev" aria-label="Previous photo">‹</button>
+          <button type="button" class="slide-btn slide-next" aria-label="Next photo">›</button>
+          <div class="slide-dots" role="tablist" aria-label="Choose photo"></div>
         </div>
-        <button type="button" class="slide-btn slide-prev" aria-label="Previous photo">‹</button>
-        <button type="button" class="slide-btn slide-next" aria-label="Next photo">›</button>
-        <div class="slide-dots" role="tablist" aria-label="Choose photo"></div>
       </div>
     </div>
   </section>
@@ -312,6 +308,18 @@
               <a href="https://github.com/caileighshoot/Alaska-Work" target="_blank" rel="noopener" class="btn btn-primary btn-sm">View Repo</a>
               <a href="https://www.mdpi.com/2072-4292/13/10/1863" target="_blank" rel="noopener" class="btn btn-ghost btn-sm">Read Paper</a>
             </div>
+          </article>
+
+          <article class="project-card-compact">
+            <p class="project-kicker">PhD Thesis Code · R <span class="project-badge">Coming soon</span></p>
+            <h3>PhD Thesis Code</h3>
+            <p>R code developed as part of my PhD research at TU Berlin, studying forest recovery following large-scale disturbances such as bark beetle outbreaks, windthrow, and wildfire. Repository launching once the work is ready to share publicly.</p>
+          </article>
+
+          <article class="project-card-compact">
+            <p class="project-kicker">Shiny App · R <span class="project-badge">Coming soon</span></p>
+            <h3>Hyperspectral Smoothing Algorithm Shiny App</h3>
+            <p>An R Shiny app I built to compare smoothing algorithms for hyperspectral data and help pick the best one for a given dataset. Launching soon.</p>
           </article>
 
         </div>

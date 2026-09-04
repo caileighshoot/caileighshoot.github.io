@@ -390,14 +390,21 @@ button:focus-visible {
 /* ============================================
    GALLERY / SLIDESHOW
    ============================================ */
-.gallery {
-  padding: 0 0 clamp(3.5rem, 8vh, 6rem);
+.about-gallery {
+  margin-top: 3rem;
+}
+
+.about-gallery-heading {
+  font-family: var(--font-display);
+  font-weight: 500;
+  font-size: clamp(1.3rem, 2.5vw, 1.6rem);
+  margin: 0 0 0.75rem;
 }
 
 .gallery-lede {
   color: var(--ink-soft);
   max-width: 60ch;
-  margin: -0.75rem 0 2rem;
+  margin: 0 0 1.5rem;
 }
 
 .slideshow {
@@ -575,6 +582,20 @@ button:focus-visible {
   margin: 0 0 0.5rem;
 }
 
+.project-badge {
+  display: inline-block;
+  margin-left: 0.5rem;
+  color: var(--paper);
+  background: rgba(246, 243, 234, 0.12);
+  border: 1px solid var(--line-on-dark);
+  border-radius: 20px;
+  padding: 0.15rem 0.6rem;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  vertical-align: middle;
+}
+
 .project-card-compact h3 {
   font-family: var(--font-display);
   font-weight: 600;
@@ -659,7 +680,6 @@ button:focus-visible {
 
 .publications + .publications {
   border-top: none;
-  padding-top: 0;
 }
 
 .pub-group {
