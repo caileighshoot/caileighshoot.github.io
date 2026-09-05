@@ -101,13 +101,25 @@ button:focus-visible {
 
 .nav-links {
   list-style: none;
-  display: flex;
-  gap: 2rem;
   margin: 0;
   padding: 0;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background: var(--paper);
+  flex-direction: column;
+  gap: 0;
+  border-bottom: 1px solid var(--line);
+  display: none;
 }
 
+.nav-links.open { display: flex; }
+.nav-links li { border-bottom: 1px solid var(--line); }
+
 .nav-links a {
+  display: block;
+  padding: 1rem var(--gutter);
   text-decoration: none;
   font-size: 0.95rem;
   font-weight: 500;
@@ -120,7 +132,7 @@ button:focus-visible {
 }
 
 .nav-toggle {
-  display: none;
+  display: flex;
   flex-direction: column;
   gap: 5px;
   background: none;
@@ -969,23 +981,4 @@ button:focus-visible {
   .skills-grid { grid-template-columns: 1fr; }
 }
 
-@media (max-width: 640px) {
-  .nav-links {
-    position: absolute;
-    top: 100%;
-    left: 0;
-    right: 0;
-    background: var(--paper);
-    flex-direction: column;
-    gap: 0;
-    border-bottom: 1px solid var(--line);
-    display: none;
-  }
-  .nav-links.open { display: flex; }
-  .nav-links li { border-bottom: 1px solid var(--line); }
-  .nav-links a {
-    display: block;
-    padding: 1rem var(--gutter);
-  }
-  .nav-toggle { display: flex; }
-}
+

@@ -100,11 +100,9 @@
     <ul class="nav-links">
       <li><a href="#about">About</a></li>
       <li><a href="#projects">Projects</a></li>
+      <li><a href="#education">Education</a></li>
       <li><a href="#work">Experience</a></li>
       <li><a href="#story">My Story</a></li>
-      <li><a href="#gallery">Gallery</a></li>
-      <li><a href="#skills">Skills</a></li>
-      <li><a href="#education">Education</a></li>
       <li><a href="#papers">Papers</a></li>
       <li><a href="#presentations">Presentations</a></li>
       <li><a href="#recognition">Recognition</a></li>
@@ -148,16 +146,15 @@
   <section class="highlight-editorial" aria-label="Career highlight">
     <div class="highlight-editorial-inner">
       <div>
-        <div class="highlight-big">$1.3M+</div>
-        <div class="highlight-big-label">in cost savings from a decision-support tool I built at Weyerhaeuser</div>
+        <div class="highlight-big">10+ years</div>
+        <div class="highlight-big-label">experience in forest remote sensing & data science</div>
       </div>
       <div class="highlight-side">
-        <div class="highlight-side-item"><strong>10+ years</strong><span>in remote sensing & forestry</span></div>
-        <div class="highlight-side-item"><strong>150+ UAV missions</strong><span>flown, many of them solo</span></div>
+        <div class="highlight-side-item"><strong>$1.3M+</strong><span>in cost savings from a decision-support tool I built</span></div>
         <div class="highlight-side-item"><strong>Innovator of the Year</strong><span>Weyerhaeuser, 2025</span></div>
+        <div class="highlight-side-item"><strong>100+ UAV Missions</strong><span>flown successfully, many solo</span></div>
       </div>
     </div>
-    <p class="highlight-affiliations">NASA <span>·</span> Weyerhaeuser <span>·</span> TU Berlin</p>
   </section>
 
   <!-- AT-A-GLANCE -->
@@ -166,14 +163,15 @@
       <h2 class="section-heading">About Me</h2>
       <p class="glance-summary">Forest remote sensing and data scientist with 10+ years of experience working across research, forestry, and environmental data science.</p>
       <ul class="glance-list">
-        <li><strong>Remote sensing:</strong> LiDAR, hyperspectral, multispectral, UAVs, and satellite imagery</li>
-        <li><strong>Data &amp; modeling:</strong> R, Python, GIS, machine learning, and spatial analysis</li>
-        <li><strong>Applied experience:</strong> forest operations, forest carbon, research, and decision-support tools</li>
-        <li><strong>Impact:</strong> developed an automated decision-support tool that generated <span class="glance-impact">$1.3M+</span> in cost savings and won Weyerhaeuser's <span class="glance-impact">2025 Innovator of the Year</span> award</li>
+        <li><strong>Remote sensing:</strong> LiDAR | Hyperspectral and Multispectral Imagery | UAV, Aerial, and Satellite Imagery | Photogrammetry </li>
+        <li><strong>Data &amp; Programming:</strong> R | SQL | Python | Machine Learning | Geospatial Analysis</li>
+        <li><strong>GIS &amp; Visualization:</strong> ArcGIS | QGIS | Google Earth Engine | R Shiny | Power BI | Decision Support Tools </li>
+        <li><strong>Applied Experience:</strong> Forest Operations | Environmental Data Collection and Processing | Forest Carbon </li>
       </ul>
     </div>
   </section>
-
+  
+ 
   <!-- PROJECTS -->
   <section class="projects" id="projects">
     <div class="section-inner">
@@ -182,7 +180,8 @@
         <div class="project-slider-track">
 
           <article class="project-card-compact is-active">
-            <p class="project-kicker">R Shiny · GIS · Remote Sensing · Workflow Automation</p>
+			<div class="project-thumb"><img src="assets/gallery/gallery-15-ForestCarbon.jpg" alt="Freshly cut logs with actively managed forest in the background" loading="lazy"></div>
+            <p class="project-kicker">R Shiny · GIS · SQL · Decision Support Tools</p>
             <h3>Automating Forest Carbon Decision-Making</h3>
             <p>Developed an automated decision-support tool to streamline a complex forest carbon project workflow at Weyerhaeuser, replacing a largely manual process with a repeatable, data-driven one built on R Shiny, GIS, and remote sensing inputs. The tool itself is proprietary, so I can't share the code, but I'm always happy to talk through the problem, approach, and technical details.</p>
             <div class="project-stats">
@@ -205,25 +204,19 @@
               <a href="https://www.mdpi.com/2072-4292/13/10/1863" target="_blank" rel="noopener" class="btn btn-ghost btn-sm">Read Paper</a>
             </div>
           </article>
+		  
+		  <article class="project-card-compact">
+		  <div class="project-thumb"><img src="assets/gallery/gallery-18-HarzUAV2.jpg" alt="Drone in the Harz Mountains, ready to collect hyperspectral and LiDAR Data" loading="lazy"></div>
+            <p class="project-kicker">R Shiny · Hyperspectral Remote Sensing · Dashboard Tools <span class="project-badge">Coming soon</span></p>
+            <h3>Hyperspectral Smoothing Algorithm Shiny App</h3>
+            <p>An R Shiny app for comparing smoothing algorithms on hyperspectral data and picking the best one for a given dataset. Publishing to GitHub soon!</p>
+          </article>
 
           <article class="project-card-compact">
-            <div class="project-thumb"><img src="assets/gallery/gallery-01-uav-flight.jpg" alt="A UAV flying over shrub vegetation during a research flight" loading="lazy"></div>
+            <div class="project-thumb"><img src="assets/gallery/gallery-16-HarzMountains.jpg" alt="Collecting GPS points in the Harz Mountains" loading="lazy"></div>
             <p class="project-kicker">UAV · LiDAR · Hyperspectral <span class="project-badge">In progress</span></p>
             <h3>UAV Forest Recovery Monitoring</h3>
-            <p>Current research at TU Berlin using UAV LiDAR and hyperspectral/multispectral imagery, alongside field validation, to track how forests recover after bark beetle outbreaks, windthrow, and wildfire. Details and code launching as the work is ready to share publicly.</p>
-          </article>
-
-          <article class="project-card-compact">
-            <div class="project-thumb"><img src="assets/gallery/gallery-05-forest-ridge.jpg" alt="Forested ridgelines viewed from above" loading="lazy"></div>
-            <p class="project-kicker">UAV · Sentinel-2 · Spatial Upscaling <span class="project-badge">In progress</span></p>
-            <h3>UAV &rarr; Satellite Upscaling</h3>
-            <p>Connecting high-resolution UAV observations to satellite-scale monitoring (Sentinel-2) to help scale forest recovery assessments from individual sites up to broader landscapes. Part of my ongoing research at TU Berlin.</p>
-          </article>
-
-          <article class="project-card-compact">
-            <p class="project-kicker">Shiny App · R <span class="project-badge">Coming soon</span></p>
-            <h3>Hyperspectral Smoothing Algorithm Shiny App</h3>
-            <p>An R Shiny app for comparing smoothing algorithms on hyperspectral data and picking the best one for a given dataset, built to make a fiddly preprocessing step faster and more consistent. Launching soon.</p>
+            <p>Current research at TU Berlin using UAV LiDAR and hyperspectral imagery, alongside field validation, to track how forests recover after bark beetle outbreaks, windthrow, and wildfire. </p>
           </article>
 
         </div>
@@ -233,6 +226,29 @@
           <button type="button" class="proj-nav-btn proj-next" aria-label="Next project">›</button>
         </div>
       </div>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section class="experience" id="education">
+    <div class="section-inner">
+      <h2 class="section-heading">Education</h2>
+      <ol class="timeline">
+        <li class="timeline-item">
+          <div class="timeline-date">2016 – 2018</div>
+          <div class="timeline-content">
+            <h3>M.S., Remote Sensing and Geospatial Analysis</h3>
+            <p class="timeline-org">University of Washington</p>
+          </div>
+        </li>
+        <li class="timeline-item">
+          <div class="timeline-date">2011 – 2015</div>
+          <div class="timeline-content">
+            <h3>B.S., Environmental Science and Resource Management</h3>
+            <p class="timeline-org">University of Washington</p>
+          </div>
+        </li>
+      </ol>
     </div>
   </section>
 
@@ -346,91 +362,6 @@
           <p class="quote-attribution">From student course evaluations, ESRM 430, Fall 2022</p>
         </aside>
       </div>
-    </div>
-  </section>
-
-  <!-- GALLERY -->
-  <section class="gallery-section" id="gallery">
-    <div class="section-inner">
-      <h2 class="section-heading">In the Field</h2>
-      <p class="gallery-lede">Remote sensing has taken me from the forests of Yosemite and interior Alaska to UAV flights in managed forests and post-disturbance landscapes. A few snapshots from along the way.</p>
-      <div class="slideshow" data-slideshow>
-        <div class="slideshow-viewport">
-          <figure class="slide is-active"><img src="assets/gallery/gallery-01-uav-flight.jpg" alt="A UAV flying over shrub vegetation during a research flight" loading="lazy"></figure>
-          <figure class="slide"><img src="assets/gallery/gallery-02-forest-light.jpg" alt="Sunlight filtering through a Pacific Northwest conifer stand" loading="lazy"></figure>
-          <figure class="slide"><img src="assets/gallery/gallery-03-cascade-view.jpg" alt="A view across managed forestland toward a snow-capped Cascade peak" loading="lazy"></figure>
-          <figure class="slide"><img src="assets/gallery/gallery-04-uav-prep.jpg" alt="Prepping a UAV for a research flight" loading="lazy"></figure>
-          <figure class="slide"><img src="assets/gallery/gallery-05-forest-ridge.jpg" alt="Forested ridgelines stretching into the distance" loading="lazy"></figure>
-          <figure class="slide"><img src="assets/gallery/gallery-06-pine-crown.jpg" alt="Looking up the crown of a tall pine tree" loading="lazy"></figure>
-          <figure class="slide"><img src="assets/gallery/gallery-07-yosemite-valley.jpg" alt="A view over Yosemite Valley, including Half Dome" loading="lazy"></figure>
-          <figure class="slide"><img src="assets/gallery/gallery-08-sequoia.jpg" alt="Standing at the base of a giant sequoia during fieldwork" loading="lazy"></figure>
-          <figure class="slide"><img src="assets/gallery/gallery-09-poster-shrub.jpg" alt="Presenting a research poster on using LiDAR to detect shrub locations" loading="lazy"></figure>
-          <figure class="slide"><img src="assets/gallery/gallery-10-field-measurement.jpg" alt="Taking field measurements in a recovering burned forest" loading="lazy"></figure>
-          <figure class="slide"><img src="assets/gallery/gallery-11-alaska-boreal.jpg" alt="Interior Alaska boreal forest with birch and spruce" loading="lazy"></figure>
-          <figure class="slide"><img src="assets/gallery/gallery-12-nasa-goddard.jpg" alt="Standing at the NASA Goddard Space Flight Center sign" loading="lazy"></figure>
-          <figure class="slide"><img src="assets/gallery/gallery-13-poster-aspen.jpg" alt="Presenting research on aspen leaf miner detection for NASA's ABoVE campaign" loading="lazy"></figure>
-          <figure class="slide"><img src="assets/gallery/gallery-14-pole-pruner.jpg" alt="Collecting vegetation samples with a pole pruner in the field" loading="lazy"></figure>
-        </div>
-        <button type="button" class="slide-btn slide-prev" aria-label="Previous photo">‹</button>
-        <button type="button" class="slide-btn slide-next" aria-label="Next photo">›</button>
-        <div class="slide-dots" role="tablist" aria-label="Choose photo"></div>
-      </div>
-    </div>
-  </section>
-
-  <!-- SKILLS -->
-  <section class="skills" id="skills">
-    <div class="section-inner">
-      <h2 class="section-heading">Technical Skills</h2>
-      <div class="skills-grid">
-        <div class="skill-group">
-          <h3>Remote Sensing</h3>
-          <div class="skill-tags">
-            <span>LiDAR</span><span>Hyperspectral</span><span>Multispectral</span><span>UAV</span><span>Satellite imagery</span><span>Photogrammetry</span>
-          </div>
-        </div>
-        <div class="skill-group">
-          <h3>Data &amp; Programming</h3>
-          <div class="skill-tags">
-            <span>R</span><span>Python</span><span>SQL</span><span>Machine Learning</span><span>R Shiny</span><span>Spatial Analysis</span>
-          </div>
-        </div>
-        <div class="skill-group">
-          <h3>GIS &amp; Visualization</h3>
-          <div class="skill-tags">
-            <span>ArcGIS</span><span>QGIS</span><span>Google Earth Engine</span><span>Power BI</span>
-          </div>
-        </div>
-        <div class="skill-group">
-          <h3>Platforms &amp; Field Tools</h3>
-          <div class="skill-tags">
-            <span>AWS</span><span>DroneDeploy</span><span>Agisoft Metashape</span><span>Pix4D</span><span>FUSION</span><span>Esri Field Maps / Survey123</span>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- EDUCATION -->
-  <section class="experience" id="education">
-    <div class="section-inner">
-      <h2 class="section-heading">Education</h2>
-      <ol class="timeline">
-        <li class="timeline-item">
-          <div class="timeline-date">2016 – 2018</div>
-          <div class="timeline-content">
-            <h3>M.S., Remote Sensing and Geospatial Analysis</h3>
-            <p class="timeline-org">University of Washington</p>
-          </div>
-        </li>
-        <li class="timeline-item">
-          <div class="timeline-date">2011 – 2015</div>
-          <div class="timeline-content">
-            <h3>B.S., Environmental Science and Resource Management</h3>
-            <p class="timeline-org">University of Washington</p>
-          </div>
-        </li>
-      </ol>
     </div>
   </section>
 
