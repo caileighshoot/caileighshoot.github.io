@@ -860,6 +860,32 @@ button:focus-visible {
 .pub-list li:first-child { padding-top: 0; }
 .pub-list li:last-child { border-bottom: none; }
 
+.pub-past-layout {
+  display: grid;
+  grid-template-columns: 1.6fr 1fr;
+  gap: 2.5rem;
+  align-items: start;
+}
+
+.pub-photo {
+  position: sticky;
+  top: 6rem;
+  margin: 0;
+}
+
+.pub-photo img {
+  width: 100%;
+  display: block;
+  border-radius: 6px;
+  border: 1px solid var(--line);
+}
+
+.pub-photo figcaption {
+  font-size: 0.82rem;
+  color: var(--ink-soft);
+  margin-top: 0.6rem;
+}
+
 .pub-title {
   font-weight: 600;
 }
@@ -1002,6 +1028,8 @@ button:focus-visible {
   .bio-quote { position: static; }
   .skills-grid { grid-template-columns: 1fr 1fr; }
   .awards-columns { grid-template-columns: 1fr; gap: 2rem; }
+  .pub-past-layout { grid-template-columns: 1fr; }
+  .pub-photo { position: static; max-width: 420px; }
 }
 
 @media (max-width: 560px) {
