@@ -1,33 +1,53 @@
 # Caileigh Shoot
 
-> Forest remote sensing and data scientist based in Munich, Germany, specializing in LiDAR, hyperspectral and multispectral imaging, UAVs, machine learning, and geospatial analysis for forest ecosystems and carbon projects. Currently a Research Associate at TU Berlin through October 2027, after which she'll be looking for data scientist / ML roles, open to remote positions as well as roles in Germany.
+> Forest remote sensing and data scientist with 10+ years of experience across research, forestry, and environmental data science. Based in Munich, Germany, working fully remote. Currently a Research Associate at TU Berlin. Specializes in LiDAR, hyperspectral and multispectral imaging, UAVs, machine learning, and geospatial analysis for forest ecosystems and carbon projects.
 
 ## Contact
 - Email: caileighshoot@gmail.com
 - LinkedIn: https://www.linkedin.com/in/caileighshoot/
 - GitHub: https://github.com/caileighshoot
-- Location: Munich, Germany
+- Location: Munich, Germany (working remotely, visits Berlin monthly)
 
 ## Current role
-Research Associate, Technische Universität Berlin (KI-Recover project), applying remote sensing and machine learning to study forest recovery after large-scale disturbances (bark beetle infestations, windthrow, wildfire), Aug 2025 through Oct 2027.
+Research Associate, Technische Universität Berlin (KI-Recover project), applying UAV and satellite remote sensing to study forest recovery after large-scale disturbances (bark beetle infestations, windthrow, wildfire). Started Aug 2025.
 
-## Background
+## Career summary
+10+ years of experience spanning academic research, NASA, applied forestry, GIS operations, forest carbon, and data science. Worked across the full chain from field data collection through remote sensing, GIS, modeling, and building decision-support tools used by operational teams.
+
 - M.S., Remote Sensing and Geospatial Analysis, University of Washington, 2018
 - B.S., Environmental Science and Resource Management, University of Washington, 2015
-- Nearly a decade of professional experience in remote sensing, GIS, and applied data science, most recently as Lead Forest Carbon Scientist at Weyerhaeuser (the largest forestry company in the US), where she built automated decision-support tools (R Shiny, Power BI, ArcGIS). One of them delivered over $1.3M in cost savings and won the company's 2025 Innovator of the Year award.
-- Logged 150+ UAV missions, many flown solo.
-- Taught Remote Sensing of the Environment (ESRM 430) as a part-time lecturer at the University of Washington to 115 students, Fall 2022.
+- NASA Goddard Space Flight Center internship (ABoVE campaign), processed MS thesis data on NASA's supercomputer
+- Nearly seven years at Weyerhaeuser (the largest forestry company in the US) across three roles: Remote Sensing Research Specialist, Inventory and Planning GIS Analyst, and Lead Forest Carbon Scientist
+- As Lead Forest Carbon Scientist, built an automated decision-support tool that delivered over $1.3M in cost savings and won Weyerhaeuser's 2025 Innovator of the Year award
+- Logged 150+ UAV missions, many flown solo
+- Taught Remote Sensing of the Environment (ESRM 430) as a part-time lecturer at the University of Washington to 115 students, Fall 2022 (4.1/5 course evaluation, 71% response rate)
+- Board member, ForestSAT (Association for Forest Spatial Analysis Technologies), 2025 to present
 
 ## Core skills
-Machine learning (Random Forest, SVM, k-NN, Naive Bayes, Bayesian methods, logistic regression), Python (GDAL, Rasterio, GeoPandas), R (advanced), SQL, LiDAR, hyperspectral & multispectral imaging, UAV operations, QGIS, ArcGIS, Google Earth Engine, AWS.
+Remote sensing: LiDAR, hyperspectral, multispectral, UAV, satellite imagery (Sentinel-2), photogrammetry.
+Data & programming: R, Python, SQL, machine learning (Random Forest, SVM, k-NN, Naive Bayes, Bayesian methods, logistic regression), R Shiny, spatial analysis.
+GIS & visualization: ArcGIS, QGIS, Google Earth Engine, Power BI.
+Platforms & field tools: AWS, DroneDeploy, Agisoft Metashape, Pix4D, FUSION, Esri Field Maps, Survey123.
 
 ## Selected publication
 Shoot, C., et al. (2021). Classifying forest type in the national forest inventory context with airborne hyperspectral and lidar data. Remote Sensing, 13(10), 1863. https://www.mdpi.com/2072-4292/13/10/1863
 
+## Selected projects
+- Automating Forest Carbon Decision-Making: automated R Shiny/GIS decision-support tool built at Weyerhaeuser, $1.3M+ in cost savings, 2025 Innovator of the Year (proprietary, code not public).
+- Forest Type Classification with Hyperspectral + LiDAR: MS thesis project, interior Alaska, 77.53% classification accuracy. Code: https://github.com/caileighshoot/Alaska-Work
+- UAV Forest Recovery Monitoring: current TU Berlin research on forest recovery after disturbance, using UAV LiDAR and hyperspectral/multispectral imagery (in progress, not yet public).
+- UAV to Satellite Upscaling: current TU Berlin research connecting UAV observations to Sentinel-2 scale monitoring (in progress, not yet public).
+- Hyperspectral Smoothing Algorithm Shiny App: R Shiny app for selecting smoothing algorithms for hyperspectral data (coming soon).
+
 ## Full site sections
-- /#about, full bio, including origin story (Yosemite LiDAR capstone research)
-- /#gallery, photo slideshow from a decade of fieldwork
+- /#about, at-a-glance professional summary
+- /#projects, selected projects
 - /#work, full professional experience timeline
-- /#projects, featured project (MS thesis code)
-- /#publications, upcoming presentations, publications, contributions, and past conference presentations
+- /#story, longer-form career narrative
+- /#gallery, photo slideshow from a decade of fieldwork
+- /#skills, technical skills
+- /#education, degrees
+- /#papers, publications and contributions
+- /#presentations, upcoming and past talks
+- /#recognition, awards and service
 - /#contact, contact links
