@@ -898,11 +898,12 @@ button:focus-visible {
 }
 
 .recognition-year {
-  display: inline-block;
-  min-width: 8.5rem;
   color: var(--coral-deep);
   font-weight: 600;
   font-size: 0.9rem;
+}
+
+.recognition-content {
 }
 
 .plain-list {
@@ -912,6 +913,9 @@ button:focus-visible {
 }
 
 .plain-list li {
+  display: grid;
+  grid-template-columns: 8.5rem 1fr;
+  gap: 0.25rem 1rem;
   padding: 0.75rem 0 0.75rem 1.7rem;
   border-bottom: 1px solid var(--line);
   position: relative;
@@ -1002,6 +1006,7 @@ button:focus-visible {
 
 @media (max-width: 560px) {
   .skills-grid { grid-template-columns: 1fr; }
+  .plain-list li { grid-template-columns: 1fr; }
 }
 
 
