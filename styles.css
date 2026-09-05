@@ -453,6 +453,22 @@ button:focus-visible {
   margin: 0;
 }
 
+.bio-photo {
+  margin: 1.5rem 0 0;
+}
+
+.bio-photo img {
+  width: 100%;
+  display: block;
+  border-radius: 6px;
+}
+
+.bio-photo figcaption {
+  font-size: 0.78rem;
+  color: rgba(246, 243, 234, 0.6);
+  margin-top: 0.5rem;
+}
+
 /* ============================================
    GALLERY / SLIDESHOW
    ============================================ */
@@ -875,6 +891,12 @@ button:focus-visible {
   border-bottom: 1px solid var(--line);
 }
 
+.awards-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+}
+
 .recognition-year {
   display: inline-block;
   min-width: 8.5rem;
@@ -975,6 +997,7 @@ button:focus-visible {
   .bio-columns { grid-template-columns: 1fr; }
   .bio-quote { position: static; }
   .skills-grid { grid-template-columns: 1fr 1fr; }
+  .awards-columns { grid-template-columns: 1fr; gap: 2rem; }
 }
 
 @media (max-width: 560px) {
