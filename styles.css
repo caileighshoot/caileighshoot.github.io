@@ -560,7 +560,10 @@ button:focus-visible {
    TECHNICAL SKILLS
    ============================================ */
 .skills {
+  background: var(--paper-dim);
   padding: clamp(3.5rem, 8vh, 6rem) 0;
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
 }
 
 .skills-grid {
@@ -666,6 +669,16 @@ button:focus-visible {
   padding: clamp(3.5rem, 8vh, 6rem) 0;
 }
 
+.projects-lede {
+  color: var(--ink-soft);
+  max-width: 60ch;
+  margin: -1rem 0 2rem;
+}
+
+.publications + .experience {
+  border-top: none;
+}
+
 .project-slider {
   max-width: 640px;
 }
@@ -735,6 +748,33 @@ button:focus-visible {
   margin: 0 0 1rem;
   font-size: 0.94rem;
   max-width: 60ch;
+}
+
+.case-study {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+  margin: 0 0 1.1rem;
+}
+
+.case-row {
+  display: grid;
+  grid-template-columns: 5.5rem 1fr;
+  gap: 0.2rem 0.9rem;
+}
+
+.case-label {
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--gold);
+}
+
+.case-text {
+  font-size: 0.88rem;
+  color: rgba(246, 243, 234, 0.85);
+  line-height: 1.5;
 }
 
 .project-stats {
@@ -1030,6 +1070,7 @@ button:focus-visible {
 @media (max-width: 560px) {
   .skills-grid { grid-template-columns: 1fr; }
   .plain-list li { grid-template-columns: 1fr; }
+  .case-row { grid-template-columns: 1fr; gap: 0.15rem; }
 }
 
 

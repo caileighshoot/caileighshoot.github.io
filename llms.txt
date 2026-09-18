@@ -1,6 +1,6 @@
 # Caileigh Shoot
 
-> Technical and scientific project manager with 10+ years of experience leading remote sensing, GIS, and data science work across research, forestry, and environmental applications. Based in Munich, Germany, working fully remote. Currently a Research Associate at TU Berlin, acting as lead scientist for the KI-Recover project. Deep technical background in LiDAR, hyperspectral and multispectral imaging, UAVs, machine learning, and geospatial analysis for forest ecosystems and carbon projects.
+> Remote sensing and geospatial technical lead with 10+ years of experience delivering and leading technical projects across research, industry, and environmental applications. Based in Munich, Germany, working fully remote. Currently a Research Associate at TU Berlin, acting as Lead Scientist for the KI-Recover project. Deep domain expertise in forestry and environmental data (LiDAR, hyperspectral and multispectral imaging, UAVs, GIS), combined with broader technical and team leadership that transfers across industries.
 
 ## Contact
 - Email: caileighshoot@gmail.com
@@ -9,41 +9,44 @@
 - Location: Munich, Germany (working remotely, visits Berlin monthly)
 
 ## Current role
-Research Associate, Technische Universität Berlin. Acts as lead scientist for the KI-Recover project, managing two student researchers and the day-to-day work of a research program applying UAV and satellite remote sensing to study forest recovery after large-scale disturbances (bark beetle infestations, windthrow, wildfire). Started Aug 2025.
+Research Associate, Technische Universität Berlin (formal title). Acts as Lead Scientist for the KI-Recover project: coordinates technical work across TU Berlin and external project partners, supervises two student assistants, and leads project planning, data acquisition, and delivery of scientific and technical outputs. The research applies UAV (RGB, multispectral, hyperspectral) and LiDAR data alongside satellite imagery and field observations to study forest recovery after large-scale disturbances (bark beetle infestations, windthrow, wildfire). Started Aug 2025.
 
 ## Career summary
-10+ years of experience spanning academic research, NASA, applied forestry, GIS operations, forest carbon, and data science, with a consistent focus on leading projects end to end and getting technical tools adopted by the people who actually use them. Worked across the full chain from field data collection through remote sensing, GIS, modeling, and building decision-support tools used by operational teams.
+10+ years of experience spanning academic research, NASA, applied forestry, GIS operations, forest carbon, and data science, with a consistent focus on leading projects end to end: defining requirements, coordinating multidisciplinary teams and stakeholders, and getting technical tools adopted by the people who actually use them. Career progression: technical specialist -> GIS/data work -> remote sensing -> technical and team leadership.
 
 - M.S., Remote Sensing and Geospatial Analysis, University of Washington, 2018
 - B.S., Environmental Science and Resource Management, University of Washington, 2015
 - NASA Goddard Space Flight Center internship (ABoVE campaign), processed MS thesis data on NASA's supercomputer
 - Nearly seven years at Weyerhaeuser (the largest forestry company in the US) across three roles: Remote Sensing Research Specialist, Inventory and Planning GIS Analyst, and Lead Forest Carbon Scientist
-- As Lead Forest Carbon Scientist, led forest carbon projects through compliance audits under voluntary carbon market standards (ACR, Verra), and scoped and built an automated decision-support tool that delivered over $1.3M in cost savings and won Weyerhaeuser's 2025 Innovator of the Year award
-- Logged 150+ UAV missions, many flown solo
+- As Lead Forest Carbon Scientist, managed a team of two analysts, coordinated with auditors and registries on compliance under voluntary carbon market standards (ACR, Verra), and led development of an automated decision-support tool that delivered more than $1.3M in projected cost savings and won Weyerhaeuser's 2025 Innovator of the Year award
+- Planned and delivered 100+ UAV missions, many flown solo, on DJI M600 platforms with MicaSense multispectral sensors
 - Taught Remote Sensing of the Environment (ESRM 430) as a part-time lecturer at the University of Washington to 115 students, Fall 2022 (4.1/5 course evaluation, 71% response rate)
-- Board member, ForestSAT (Association for Forest Spatial Analysis Technologies), 2025 to present
+- Board member, ForestSAT (Association for Forest Spatial Analysis Technologies), an international professional association for remote sensing researchers and practitioners, 2025 to present
 
-## Core skills
-Remote sensing: LiDAR, hyperspectral, multispectral, UAV, satellite imagery (Sentinel-2), photogrammetry.
-Data & programming: R, Python, SQL, machine learning (Random Forest, SVM, k-NN, Naive Bayes, Bayesian methods, logistic regression), R Shiny, spatial analysis.
-GIS & visualization: ArcGIS, QGIS, Google Earth Engine, Power BI.
-Platforms & field tools: AWS, DroneDeploy, Agisoft Metashape, Pix4D, FUSION, Esri Field Maps, Survey123.
+## Skills
+Leadership & project delivery: technical leadership, project coordination and delivery, cross-functional team leadership, team supervision and mentoring, stakeholder and partner coordination, requirements and workflow design, QA and validation, distributed team collaboration.
+Geospatial & Earth observation: remote sensing, Earth observation, LiDAR, hyperspectral imaging, multispectral imaging, UAV/drone systems, GIS, spatial analysis, geospatial data pipelines.
+Data & technology: R, Python, SQL, R Shiny, cloud-based geospatial workflows, data visualization, decision-support systems.
 
 ## Selected publication
 Shoot, C., et al. (2021). Classifying forest type in the national forest inventory context with airborne hyperspectral and lidar data. Remote Sensing, 13(10), 1863. https://www.mdpi.com/2072-4292/13/10/1863
 
-## Selected projects
-- Automating Forest Carbon Decision-Making: automated R Shiny/GIS decision-support tool scoped and built at Weyerhaeuser, $1.3M+ in cost savings, 2025 Innovator of the Year (proprietary, code not public).
+## Selected leadership & projects
+- Automating Forest Carbon Decision-Making: led development of an automated R Shiny/GIS/SQL decision-support system at Weyerhaeuser, replacing a manual forest carbon workflow. $1.3M+ in projected cost savings, 2025 Innovator of the Year (proprietary, code not public).
+- KI-Recover Forest Recovery Monitoring: Lead Scientist on a multi-institutional TU Berlin project coordinating UAV (RGB, multispectral, hyperspectral) and LiDAR data collection (~350 ha) with field validation to study post-disturbance forest recovery. Ongoing.
+- Applied UAV Remote Sensing Program: built and ran Weyerhaeuser's UAV remote sensing program end to end, from mission planning through processing pipelines to usable GIS products.
+
+## Research & technical work
 - Forest Type Classification with Hyperspectral + LiDAR: MS thesis project, interior Alaska, 77.53% classification accuracy. Code: https://github.com/caileighshoot/Alaska-Work
-- UAV Forest Recovery Monitoring: current TU Berlin research on forest recovery after disturbance, using UAV LiDAR and hyperspectral/multispectral imagery (in progress, not yet public).
-- Hyperspectral Smoothing Algorithm Shiny App: R Shiny app for selecting smoothing algorithms for hyperspectral data (coming soon).
+- Hyperspectral Smoothing Algorithm Shiny App: R Shiny app for selecting smoothing algorithms for hyperspectral data. Code: https://github.com/caileighshoot/hyperspectral-smoothing-explorer
 
 ## Full site sections
 - /#about, at-a-glance professional summary
-- /#projects, selected projects
-- /#education, education and full professional experience timeline
+- /#skills, skills grouped by leadership, geospatial/EO, and data/technology
+- /#projects, selected leadership & projects
+- /#research, research & technical work, publications, and presentations
+- /#education, education
+- /#work, full professional experience timeline
 - /#story, longer-form career narrative
-- /#papers, publications and contributions
-- /#presentations, upcoming and past talks
 - /#recognition, awards and service
 - /#contact, contact links

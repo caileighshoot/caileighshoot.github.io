@@ -27,7 +27,9 @@ if (slideshow) {
   slides.forEach((_, i) => {
     const dot = document.createElement('button');
     dot.type = 'button';
+    dot.setAttribute('role', 'tab');
     dot.setAttribute('aria-label', `Go to photo ${i + 1}`);
+    dot.setAttribute('aria-selected', i === 0 ? 'true' : 'false');
     if (i === 0) dot.classList.add('is-active');
     dot.addEventListener('click', () => goTo(i));
     dotsWrap.appendChild(dot);
@@ -37,13 +39,20 @@ if (slideshow) {
   function goTo(index) {
     slides[current].classList.remove('is-active');
     dots[current].classList.remove('is-active');
+    dots[current].setAttribute('aria-selected', 'false');
     current = (index + slides.length) % slides.length;
     slides[current].classList.add('is-active');
     dots[current].classList.add('is-active');
+    dots[current].setAttribute('aria-selected', 'true');
   }
 
   prevBtn.addEventListener('click', () => goTo(current - 1));
   nextBtn.addEventListener('click', () => goTo(current + 1));
+
+  slideshow.addEventListener('keydown', (e) => {
+    if (e.key === 'ArrowLeft') { e.preventDefault(); goTo(current - 1); }
+    if (e.key === 'ArrowRight') { e.preventDefault(); goTo(current + 1); }
+  });
 
   let touchStartX = null;
   const viewport = slideshow.querySelector('.slideshow-viewport');
@@ -60,7 +69,7 @@ if (slideshow) {
   });
 }
 
-// Generic card slider (e.g. Featured Projects)
+// Generic card slider (e.g. Selected Leadership & Projects, Research & Technical Work)
 document.querySelectorAll('[data-slider]').forEach((container) => {
   const slides = Array.from(container.querySelectorAll('.project-card-compact'));
   const controls = container.querySelector('[data-slider-controls]');
@@ -81,7 +90,9 @@ document.querySelectorAll('[data-slider]').forEach((container) => {
   slides.forEach((_, i) => {
     const dot = document.createElement('button');
     dot.type = 'button';
+    dot.setAttribute('role', 'tab');
     dot.setAttribute('aria-label', `Go to project ${i + 1}`);
+    dot.setAttribute('aria-selected', i === current ? 'true' : 'false');
     if (i === current) dot.classList.add('is-active');
     dot.addEventListener('click', () => goTo(i));
     dotsWrap.appendChild(dot);
@@ -91,11 +102,32 @@ document.querySelectorAll('[data-slider]').forEach((container) => {
   function goTo(index) {
     slides[current].classList.remove('is-active');
     dots[current].classList.remove('is-active');
+    dots[current].setAttribute('aria-selected', 'false');
     current = (index + slides.length) % slides.length;
     slides[current].classList.add('is-active');
     dots[current].classList.add('is-active');
+    dots[current].setAttribute('aria-selected', 'true');
   }
 
   prevBtn.addEventListener('click', () => goTo(current - 1));
   nextBtn.addEventListener('click', () => goTo(current + 1));
+
+  container.addEventListener('keydown', (e) => {
+    if (e.key === 'ArrowLeft') { e.preventDefault(); goTo(current - 1); }
+    if (e.key === 'ArrowRight') { e.preventDefault(); goTo(current + 1); }
+  });
+
+  let touchStartX = null;
+  const track = container.querySelector('.project-slider-track');
+  track.addEventListener('touchstart', (e) => {
+    touchStartX = e.touches[0].clientX;
+  }, { passive: true });
+  track.addEventListener('touchend', (e) => {
+    if (touchStartX === null) return;
+    const delta = e.changedTouches[0].clientX - touchStartX;
+    if (Math.abs(delta) > 40) {
+      goTo(delta < 0 ? current + 1 : current - 1);
+    }
+    touchStartX = null;
+  });
 });
